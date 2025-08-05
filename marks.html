@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Onesmos Nesib Academy - Marks</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Onesmos Nesib Academy</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="admission.html">Admission</a>
+      <a href="contact.html">Contact</a>
+      <a href="marks.html">Marks</a>
+      <a href="login.html">Login</a>
+      <button id="dark-mode-toggle">🌙</button>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Student Marks</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Student</th>
+          <th>Mathematics</th>
+          <th>English</th>
+          <th>Biology</th>
+          <th>Chemistry</th>
+          <th>Physics</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Student A</td>
+          <td>85</td>
+          <td>90</td>
+          <td>78</td>
+          <td>88</td>
+          <td>92</td>
+        </tr>
+        <tr>
+          <td>Student B</td>
+          <td>75</td>
+          <td>80</td>
+          <td>70</td>
+          <td>82</td>
+          <td>85</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <canvas id="gradesChart" width="400" height="200"></canvas>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
